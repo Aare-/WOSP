@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#002252"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="207dp"
+        android:layout_height="160dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/bg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/wID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uid"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#eeeeee" />
+
+        <TextView
+            android:id="@+id/user_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#eeeeee" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/recol"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1" >
+
+        <LinearLayout
+            android:id="@+id/uFillDataForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dip" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1gr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff" 
+				android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2gr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff" 
+				android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5gr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#408A9FE3"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10gr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20gr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50gr"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff" 
+				android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff" 
+				android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200zl"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/coinsNo200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#eeeeee" />
+
+            <EditText
+                android:id="@+id/comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:textColor="#ffffff"
+android:background="#408A9FE3"
+            android:layout_margin="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"				>
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/recol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="#40ffffff"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/recol"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">WOSP</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">WOSP</string>
+    <string name="login">Login</string>
+    <string name="pass">Hasło</string>
+    <string name="log_in">Zaloguj</string>
+    <string name="reconcil">Rozlicz</string>
+    <string name="reconciled">Rozliczeni</string>
+    <string name="logout">Wyloguj</string>
+    <string name="welcome">Witaj</string>
+    <string name="back">Wstecz</string>
+    <string name="uid">ID wolontariusza</string>
+    <string name="notes">Komentarz</string>
+    <string name="recol">Rozlicz</string>
+
+</resources>

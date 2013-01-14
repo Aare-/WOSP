@@ -1,0 +1,11 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:id="@+id/main_view"
+			 android:layout_width="fill_parent"
+			 android:layout_height="fill_parent">
+
+
+<include android:id="@+id/l_form"  layout="@layout/login_form" />
+<include android:id="@+id/p_form"  layout="@layout/payment_form" />
+<include android:id="@+id/u_form"  layout="@layout/user_recol_f" />
+
+</ViewFlipper>
